@@ -1,3 +1,5 @@
+import time
+
 meme_dict = {
             "CRINGE"  : "Something embarrasing",
             "LOL"     : "Something funny",
@@ -18,7 +20,9 @@ meme_dict = {
             }
 
 print("Welcome to the Big 25 Dictionaries.")
+
 while True:
+    time.sleep(1)
     word = input("\nType the word you want to learn!")
 
     if word in meme_dict.keys():
